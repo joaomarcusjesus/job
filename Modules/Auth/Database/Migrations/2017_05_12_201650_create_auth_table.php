@@ -31,7 +31,7 @@ class CreateAuthTable extends Migration
             $table->timestamps();
 
             $table->engine = 'InnoDB';
-            $table->unique('code');
+//            $table->unique('code');
         });
 
         Schema::create('reminders', function (Blueprint $table) {
